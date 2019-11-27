@@ -30,7 +30,6 @@ header{
     flex-wrap: wrap;
     background-color: #11ABBF;
     height: 60vh;
-    justify-content: space-between;
 }
 #file{
     background-color: #27212D;
@@ -47,9 +46,7 @@ header{
     background-color: #EAEAEA;
     height: 40vh;
     justify-content: space-around;
-}
-.site{
-    width: 100%;
+    align-items: flex-end;
 }
 .pink-button{
     background-color: #BC3184;
@@ -58,14 +55,14 @@ header{
 }
 .purple-button{
     width: 33.33%;
+    margin-left: 15%;
 }
 #site{
     width: 100%;
+    display: flex;
     justify-content: space-between;
     margin-left: 10%;
-}
-.text{
-    width: 40%;
+    margin-right: 5%;
 }
 .subtitle{
     width: 80%;
@@ -85,7 +82,25 @@ h3{
     color: turquoise;
     font-size: larger;
 }
-img{
+#bonus{
     height: inherit;
     width: 33.33%;
 }
+#pink-arrow{
+    height: 10vh;
+    margin-top: 30%;
+    margin-left: 40%;
+}
+@media screen and (max-width: 640px) {
+    #images{
+        flex-direction: column;
+    }
+    .purple-button{
+        width: 100%;
+        height: 60vh;
+    }
+    #bonus{
+        width: 100%;
+        height: 60vh;
+    }
+  }

@@ -3,7 +3,6 @@ section.container{
 }
 .container.row{
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
 }
 .container.column{
@@ -13,6 +12,7 @@ header ul {
     list-style-type: none;
     margin: 20;
     padding: 30;
+    margin-left: 5%;
   }
 header ul li {
     display: inline;
@@ -24,38 +24,68 @@ header{
     justify-content: flex-start;
     color: white;
     background-color: #373C3F;
+
 }
 #home{
     flex-wrap: wrap;
     background-color: #11ABBF;
-    height: 40vh;
+    height: 60vh;
+    justify-content: space-between;
 }
 #file{
     background-color: #27212D;
+    height: 30vh;
+    justify-content: space-between;
 }
 #images{
-    flex-wrap: wrap;
     width: 100%;
     background-color: #5A0FA0;
+    height: 50vh; 
 }
 #infos{
     flex-wrap: wrap;
     background-color: #EAEAEA;
+    height: 40vh;
+    justify-content: space-around;
+}
+.site{
+    width: 100%;
 }
 .pink-button{
     background-color: #BC3184;
+    width: 20%;
+    height: inherit;
+}
+.purple-button{
+    width: 33.33%;
+}
+#site{
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 10%;
 }
 .text{
     width: 40%;
 }
+.subtitle{
+    width: 80%;
+    margin-left: 10%;
+}
 h1{
     width: 100%;
-    text-align: center;
+    margin-left: 10%;
     color: white;
+    font-size: xx-large;
 }
 h2{
     color: gray;
+    font-size: x-large;
 }
 h3{
     color: turquoise;
+    font-size: larger;
+}
+img{
+    height: inherit;
+    width: 33.33%;
 }

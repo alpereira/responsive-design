@@ -29,21 +29,21 @@ header{
 #home{
     flex-wrap: wrap;
     background-color: #11ABBF;
-    height: 60vh;
+    height: 90vh;
 }
 #file{
     background-color: #27212D;
-    height: 30vh;
+    height: 40vh;
     justify-content: space-between;
 }
 #images{
     width: 100%;
     background-color: #5A0FA0;
-    height: 50vh; 
+    height: 70vh; 
 }
 #infos{
     flex-wrap: wrap;
-    height: 40vh;
+    height: 50vh;
     justify-content: space-around;
     align-items: flex-end;
     background-color: #EAEAEA;
@@ -62,7 +62,7 @@ header{
     display: flex;
     justify-content: space-between;
     margin-left: 10%;
-    margin-right: 38%;
+    margin-right: 17%;
     margin-bottom: 11%;
 }
 .subtitle{
@@ -73,9 +73,9 @@ h1{
     width: 100%;
     margin-left: 10%;
     color: white;
-    font-size: 67px;
-    margin-right: 14%;
+    margin-right: 17%;
     margin-bottom: 0;
+    font-size: 90px;
 }
 h2{
     color: gray;
@@ -91,7 +91,7 @@ h3{
 }
 #pink-arrow{
     height: 10vh;
-    margin-top: 30%;
+    margin-top: 40%;
     margin-left: 40%;
 }
 @media screen and (max-width: 640px) {
@@ -113,7 +113,7 @@ h3{
         margin-right: 15%;
     }
     #home{
-        height: 80vh;
+        height: auto;
     }
     #file{
         height: auto;
@@ -124,5 +124,8 @@ h3{
     }
     #extra{
         display: none;
+    }
+    header ul{
+
     }
   }
